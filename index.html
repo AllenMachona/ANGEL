@@ -134,7 +134,7 @@
 
 <script>
 /* ====== EDIT THESE ====== */
-const HER  = "Angel";          // her name
+const HER  = "Angel Arona";    // her name
 const GUIDE = "Arona";         // the little helper who asks the questions
 const FROM = "Your love";      // how the final letter is signed (put your name here)
 /* ======================== */
@@ -185,7 +185,7 @@ function setBlush(n){
 /* ---------- flow ---------- */
 function intro(){
   stage.innerHTML=`<h1>Hey ${HER} 💗</h1>
-    <p class="q big fade">I made this just for you. I have a few questions for you, and I want your honest answers. Careful, you might blush. 🌸<br><small>(${GUIDE} will be right here with you.)</small></p>
+    <p class="q big fade">I made this just for you. I have a few questions for you, and I want your honest answers. Careful, you might blush. 🌸</p>
     <div class="opts" style="min-height:0"><button id="go">I'm ready 🥰</button></div>`;
   $("#go").onclick=()=>{burst(innerWidth/2,innerHeight/2,26);next();};
 }
